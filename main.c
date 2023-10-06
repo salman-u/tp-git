@@ -6,6 +6,6 @@ void move_forward(int distance) {
 
 int main() {
     move_forward(10);
-    int res= move_forward;
+    int r= move_forward;
     return 0;
 }
