@@ -6,7 +6,7 @@ void move_forward(int distance) {
 
 int main() {
     move_forward(10);
-    int r= move_forward;
-     // r is a pointer to a function
+    int r= move_forward(10);
+    printf("r=%d\n", r);
     return 0;
 }
